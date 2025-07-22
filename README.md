@@ -35,7 +35,7 @@ cd TiaPrompt
 
 ```
 Install Dependencies(open in different terminals)
-🔹 Install frontend dependencies
+🔹 Install frontend dependencies\n
 cd client
 npm install
 🔹 Install backend dependencies
