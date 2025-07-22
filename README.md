@@ -35,18 +35,23 @@ cd TiaPrompt
 
 ```
 Install Dependencies(open in different terminals)
-🔹 Install frontend dependencies\n
+🔹 Install frontend dependencies
+```bash
 cd client
 npm install
+```
 🔹 Install backend dependencies
+```bash
 cd server
 npm install
-
+```
 Set Up Environment Variables
 Create a .env file inside /server directory:
+```bash
 MONGO_URI=your_mongodb_connection_string
 MISTRAL_API_KEY=your_mistral_api_key
 PORT=5000
+```
 ✅ PORT=5000 is the default backend port
 ✅ MISTRAL_API_KEY will be used when integrating with Mistral LLM API
 
